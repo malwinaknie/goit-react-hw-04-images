@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import Searchbar from '../Searchbar/SearchBar';
-import ImageGallery from '../ImageGallery/ImageGallery';
-import Button from '../Button/Button';
-import Modal from '../Modal/Modal';
-import Loader from '../Loader/Loader';
+import Searchbar from '../Searchbar/SearchBar.jsx';
+import ImageGallery from '../ImageGallery/ImageGallery.jsx';
+import Button from '../Button/Button.jsx';
+import Modal from '../Modal/Modal.jsx';
+import Loader from '../Loader/Loader.jsx';
 import './App.css';
 
 const App = () => {
